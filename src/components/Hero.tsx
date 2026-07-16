@@ -46,7 +46,7 @@ export default function Hero() {
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-12">
 
      <a
-    href="/Devfolio/Resumefullstackorg.pdf.pdf"
+    href="/Devfolio/Resumefullstackorg.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all duration-300 hover:scale-105"
