@@ -1,4 +1,9 @@
-import { Github, Mail, Phone, ArrowDown } from 'lucide-react';
+import {
+  Github,
+  ArrowDown,
+  Linkedin,
+  FileText
+} from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 
@@ -39,30 +44,38 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-12">
-              <a
-                href={`mailto:${personalInfo.email}`}
-                className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50"
-              >
-                <Mail size={20} />
-                <span>Email Me</span>
-              </a>
-              <a
-                href={personalInfo.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 bg-slate-700 hover:bg-slate-600 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg"
-              >
-                <Github size={20} />
-                <span>GitHub</span>
-              </a>
-              <a
-                href={`tel:${personalInfo.phone}`}
-                className="flex items-center gap-2 px-6 py-3 bg-slate-700 hover:bg-slate-600 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg"
-              >
-                <Phone size={20} />
-                <span>Call Me</span>
-              </a>
-            </div>
+
+     <a
+    href="/Portfolio/Resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all duration-300 hover:scale-105"
+  >
+    <FileText size={20} />
+    <span>Resume</span>
+  </a>
+
+  <a
+    href={personalInfo.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-6 py-3 bg-slate-700 hover:bg-slate-600 rounded-lg transition-all duration-300 hover:scale-105"
+  >
+    <Github size={20} />
+    <span>GitHub</span>
+  </a>
+
+  <a
+    href={personalInfo.linkedin}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-6 py-3 bg-slate-700 hover:bg-slate-600 rounded-lg transition-all duration-300 hover:scale-105"
+  >
+    <Linkedin size={20} />
+    <span>LinkedIn</span>
+  </a>
+
+</div>
 
             <button
               onClick={() => scrollToSection('about')}
@@ -79,9 +92,9 @@ export default function Hero() {
             <div className="absolute w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-r from-cyan-400 via-blue-500 to-teal-400 blur-md opacity-70 animate-[spin_8s_linear_infinite]"></div>
 
             {/* Profile Image */}
-            <img
-              src="/Portfolio/jashu-profile.jpg"
-              alt="Jashwanth Chamkuri"
+           <img
+              src="/Portfolio/mahesh-profile.jpg"
+              alt="Sidagam Teja Durga Mahesh"
               className="relative w-72 h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-transparent shadow-xl shadow-cyan-500/40 hover:scale-105 transition-transform duration-300 animate-[float_4s_ease-in-out_infinite]"
             />
           </div>

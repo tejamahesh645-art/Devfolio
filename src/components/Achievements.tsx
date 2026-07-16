@@ -56,16 +56,16 @@ export default function Achievements() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
                 <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 hover:bg-opacity-20 transition-all duration-300">
-                  <div className="text-4xl font-bold mb-2">7.89</div>
+                  <div className="text-4xl font-bold mb-2">8.66</div>
                   <div className="text-sm opacity-90">CGPA at NIT Jamshedpur</div>
                 </div>
                 <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 hover:bg-opacity-20 transition-all duration-300">
-                  <div className="text-4xl font-bold mb-2">98.7%</div>
-                  <div className="text-sm opacity-90">Class XII (TSBIE)</div>
+                  <div className="text-4xl font-bold mb-2">98.1%</div>
+                  <div className="text-sm opacity-90">Class XII (APBIE)</div>
                 </div>
                 <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 hover:bg-opacity-20 transition-all duration-300">
-                  <div className="text-4xl font-bold mb-2">10/10</div>
-                  <div className="text-sm opacity-90">Class X CGPA</div>
+                 <div className="text-4xl font-bold mb-2">99.01</div>
+                 <div className="text-sm opacity-90">JEE Main Percentile</div>
                 </div>
               </div>
             </div>

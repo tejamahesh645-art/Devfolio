@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const navItems = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Achievements', href: '#achievements' },
-  { label: 'Contact', href: '#contact' }
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Projects", href: "#projects" },
+  { label: "Achievements", href: "#achievements" },
+  { label: "Contact", href: "#contact" }
 ];
 
 export default function Navigation() {
@@ -56,10 +56,10 @@ export default function Navigation() {
           <button
             onClick={() => scrollToSection('#home')}
             className={`text-2xl font-bold transition-colors ${
-              isScrolled ? 'text-slate-900' : 'text-white'
-            }`}
-          >
-            CJ
+            isScrolled ? 'text-slate-900' : 'text-white'
+             }`}
+              >
+            Teja<span className="text-cyan-400">Mahesh</span>
           </button>
 
           <div className="hidden md:flex items-center gap-8">

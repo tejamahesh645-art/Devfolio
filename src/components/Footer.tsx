@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">Chamakuri Jashwanth</h3>
+              <h3 className="text-2xl font-bold mb-4">Sidagam Teja Durga Mahesh</h3>
               <p className="text-slate-400 leading-relaxed">
                 Full-stack developer passionate about creating elegant solutions to complex problems.
               </p>
@@ -72,7 +72,7 @@ export default function Footer() {
 
           <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-slate-400 text-sm">
-              {currentYear} Chamakuri Jashwanth. All rights reserved.
+              {currentYear} Sidagam Teja Durga Mahesh. All rights reserved.
             </p>
             <p className="text-slate-400 text-sm flex items-center gap-2">
               Made with <Heart size={16} className="text-red-500" /> using React & Tailwind CSS

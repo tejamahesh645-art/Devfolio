@@ -1,5 +1,12 @@
 import { useState, FormEvent, useRef } from 'react';
-import { Mail, Phone, Github, Linkedin, Send, MapPin } from 'lucide-react';
+import {
+  Mail,
+  Phone,
+  Github,
+  Linkedin,
+  Send,
+  MapPin
+} from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 import emailjs from 'emailjs-com';
 
@@ -17,10 +24,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        'service_hjxf06m',     
-        'template_vc8abqt',    
+        'service_50ywqdc',     
+        'template_lq6s1qy',    
         formRef.current!,
-        'CEpnvgwFWCSSpQK3l'      
+        'AkvCP5pO305YyKhAm'      
       )
       .then(
         () => {
