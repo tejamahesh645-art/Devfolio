@@ -19,7 +19,65 @@ export const skills = {
   fundamentals: ["Data Structures & Algorithms", "Object-Oriented Programming", "DBMS", "Operating Systems", "Computer Network"]
 };
 
-export const projects = []
+export const projects= [
+  {
+    title: "OneCart",
+    description:
+      "A full-stack voice-enabled e-commerce platform with secure authentication, product browsing, cart management, and online payments.",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Google OAuth",
+      "Razorpay"
+    ],
+    github: "https://github.com/tejamahesh645-art/OneCart",
+    demo: "https://one-cart-eeap.vercel.app/"
+  },
+
+  {
+    title: "NEURO X",
+    description:
+      "An AI-based EEG seizure detection system using signal processing and a 1D CNN to classify seizure activity from EEG recordings.",
+    technologies: [
+      "Python",
+      "TensorFlow",
+      "MNE",
+      "Streamlit",
+      "1D CNN"
+    ],
+    github: "https://github.com/tejamahesh645-art/Neuro-X",
+    demo: "https://neuro-x-pcuhbs6qkatyqqj5a9wofj.streamlit.app/"
+  },
+
+  {
+    title: "WeatherVerse",
+    description:
+      "A real-time weather application providing current weather, forecasts, location-based search, and atmospheric information using the OpenWeatherMap API.",
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "OpenWeatherMap API"
+    ],
+    github: "https://github.com/tejamahesh645-art/WeatherVerse",
+    demo: "https://tejamahesh645-art.github.io/WeatherVerse/"
+  },
+
+  {
+    title: "DevFolio",
+    description:
+      "A responsive personal portfolio website built to showcase projects, technical skills, achievements, and experience.",
+    technologies: [
+      "React.js",
+      "Tailwind CSS"
+    ],
+    github: "https://github.com/tejamahesh645-art/Devfolio",
+    demo: "https://tejamahappesh645-art.github.io/Devfolio/"
+  }
+]
   
 
 export const achievements = [
